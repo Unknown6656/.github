@@ -250,3 +250,8 @@ dotnet_naming_style._snake_case.required_prefix = _
 dotnet_naming_style._snake_case.required_suffix = 
 dotnet_naming_style._snake_case.word_separator = _
 dotnet_naming_style._snake_case.capitalization = all_lower
+
+
+# Overrides for custom diagnostics
+
+dotnet_diagnostic.CA2245.severity = warn
